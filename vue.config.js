@@ -3,14 +3,14 @@ const sass = require('sass');
 process.env.VUE_APP_RELEASE = require('./package').release;
 
 module.exports = {
-  publicPath: '/data-center-web',
-  outputDir: 'dist/data-center-web',
+  publicPath: '/Components',
+  outputDir: 'dist/Components',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   transpileDependencies: ['axios'],
 
   configureWebpack: {
-    name: '数据中心',
+    name: 'Components',
     resolve: {
       alias: {
         '@': path.resolve('src'),
@@ -34,9 +34,6 @@ module.exports = {
     loaderOptions: {
       sass: {
         implementation: sass,
-        prependData: `
-        @import "@/styles/vars.scss";
-        `,
       },
     },
   },
