@@ -1,0 +1,100 @@
+{
+  "name": "template-vue2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --no-fix",
+    "lint:fix": "vue-cli-service lint",
+    "lint:css": "stylelint \"src/**/*.{css,less,sass,scss,vue}\"",
+    "lint:css:fix": "stylelint --fix \"src/**/*.{css,less,sass,scss,vue}\"",
+    "lint:md": "markdownlint --ignore-path .gitignore .",
+    "lint:md:fix": "markdownlint --ignore-path .gitignore --fix ."
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.10",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.11",
+    "vue-router": "^4.1.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "autoprefixer": "^9.7.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-webpack": "^0.13.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": "^8.0.1",
+    "lint-staged": "^11.0.1",
+    "markdownlint-cli": "^0.27.1",
+    "runjs": "^4.4.2",
+    "sass": "^1.54.9",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "style-loader": "^3.1.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "svg-sprite-loader": "^6.0.9",
+    "vue-runtime-helpers": "^1.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "files": [
+    ".vscode",
+    "public",
+    "scripts",
+    "src",
+    ".browserslistrc",
+    ".env.development",
+    ".env.production",
+    ".eslintignore",
+    ".eslintrc.js",
+    ".gitattributes",
+    ".gitignore",
+    ".gitlab-ci.yml",
+    ".markdownlint.json",
+    ".npmrc",
+    "babel.config.js",
+    "package-lock.json",
+    "postcss.config.js",
+    "stylelint.config.js",
+    "vue.config.js"
+  ]
+}

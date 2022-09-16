@@ -1,0 +1,36 @@
+@import './theme-var.scss';
+
+// 定义统一的样式变量，方便使用及后续维护
+
+$--color-close: #d9d9d9;
+
+// 页面底色
+$-page-bg-color: #f0f2f5;
+
+/*** 菜单颜色 ***/
+// $-menu-bg-color: linear-gradient(180deg, rgba(100, 56, 108, 1) 30%, #64386c 70%, rgb(254, 102, 177) 95%);;
+// $-menu-bg-color2: linear-gradient(180deg, rgba(12,12,21, 0.3), rgb(255, 218, 166) 100%);
+$-menu-bg-color: linear-gradient(180deg, #0c0c15 30%, rgba(100, 56, 108, 1) 70%);
+$-menu-bg-color2: linear-gradient(180deg, rgba(100, 56, 108, 0.5) 30%, rgba(254, 102, 177, 0.5) 70%);
+
+$-item-bg-color: linear-gradient(90deg, #0c0c15 30%, rgba(100, 56, 108, 1) 70%);
+$-item-bg-color2: linear-gradient(90deg, rgba(100, 56, 108, 0.5) 30%, rgba(254, 102, 177, 0.5) 70%);
+
+// $-menu-bg-color: linear-gradient(180deg, rgb(0, 106, 255) 0%, rgb(153, 102, 255) 25%, rgb(254, 102, 177) 75%, rgb(255, 218, 166) 100%);
+// $-menu-bg-color: linear-gradient(180deg, #021b31 0%, #053766 100%);;
+$-menu-shadow: 4px 0 8px 0 rgba(157, 169, 197, 0.3);
+$-menu-item-hover-bg-color: #40a0ff1f;
+$-menu-item-font-color: #fff;
+// $-menu-item-active-bg-color: linear-gradient(270deg, #062441 0%, #021b31 100%);
+$-menu-item-active-bg-color: #007bff6c;
+
+/*** 顶部颜色 ***/
+$-layout-header-bg-color: linear-gradient(194deg, #053766 0%, #021b31 100%);
+$-layout-header-font-color: #fff;
+
+/*** 标签栏颜色 ***/
+$-layout-tags-bg-color: #fff;
+$-layout-tags-font-color: #606266;
+$-layout-tags-boder: 1px solid #d9d9d9;
+$-layout-tags-active-bg-color: #f0f7ff;
+$-layout-tags-active-font-color: #007aff;
