@@ -84,7 +84,7 @@ export default {
     return {
       editorValue: this.value,
       init: {
-        // 是用了 autoresize 则设置的高度无效
+        // 使用了 autoresize 则设置的高度无效
         height: 300,
         skin: 'oxide',
         menubar: false,
